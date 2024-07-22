@@ -1,5 +1,10 @@
 # README
 
+
+
+https://github.com/user-attachments/assets/32bf21e1-82d1-4b9a-a21d-4e4936d01b4f
+
+
 This repository is a template that shows how to integrate Rails, React, and Tailwind using Bun. 
 
 ## setup
