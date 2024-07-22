@@ -3,11 +3,10 @@ import { createRoot } from "react-dom/client";
 import App from "./app";
 
 import {
-  QueryClient,
   QueryClientProvider,
 } from '@tanstack/react-query'
 
-const queryClient = new QueryClient();
+import {queryClient} from '../queries/client'
 
 document.addEventListener("turbo:load", () => {
   const root = createRoot(
@@ -15,7 +14,7 @@ document.addEventListener("turbo:load", () => {
   );
   root.render(
     <QueryClientProvider client={queryClient}>
-      <App />
+      <App/>
     </QueryClientProvider>
   );
 });
